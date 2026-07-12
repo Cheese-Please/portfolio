@@ -1,0 +1,14 @@
+# Dependencies (regenerate with `npm install`)
+node_modules/
+
+# Personal/local Claude Code settings — machine-specific permissions,
+# not meant to be shared
+.claude/settings.local.json
+
+# Scratch files from local testing
+_*.mjs
+_*.html
+
+# OS cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiden Bohluli — Mechanical Engineer</title>
+  <meta name="description" content="Mechanical engineering portfolio: assemblies, drawings, and interactive part views." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <noscript>
+    <div class="wrap noscript-notice">
+      This site renders project case studies and the interactive part viewer with
+      JavaScript. Please enable JavaScript, or
+      <a href="mailto:aiden.bohluli@gmail.com">email me directly</a>
+      for a PDF version of this portfolio.
+    </div>
+  </noscript>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="#top">
+        Aiden Bohluli
+        <span class="brand__role">Mechanical Engineer</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="work-experience.html">Experience</a></li>
+          <li><a href="reports/resume.pdf">Resume</a></li>
+          <li><a href="https://linkedin.com/in/aiden-bohluli">LinkedIn</a></li>
+          <li><a href="https://github.com/abohluli">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <p class="hero__eyebrow">Mechanical Engineer</p>
+        <h1 class="hero__name">Aiden Bohluli</h1>
+        <p class="hero__thesis">
+          I design and validate mechanical assemblies — from concept sketch through
+          tolerance stack-up to a part that survives its load case.
+        </p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap about__grid">
+        <div class="about__media">
+          <div class="ratio-box ratio-box--portrait">
+            <img
+              src="assets/img/headshot.jpg"
+              alt="Aiden Bohluli, headshot"
+              loading="lazy"
+              width="480"
+              height="600"
+            />
+          </div>
+        </div>
+        <div class="about__copy">
+          <p class="section-eyebrow">About</p>
+          <p>
+            I'm a mechanical engineer focused on structural assemblies and mechanism
+            design, working primarily in SolidWorks with an emphasis on GD&amp;T,
+            load analysis, and design for manufacture. The projects below show the
+            path from objective to a measured, working result.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="wrap">
+        <p class="section-eyebrow">Projects</p>
+        <div id="project-list" class="project-list" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="wrap footer__grid">
+      <div>
+        <p class="footer__label">Contact</p>
+        <a class="footer__email" href="mailto:aiden.bohluli@gmail.com">aiden.bohluli@gmail.com</a>
+      </div>
+      <ul class="footer__links">
+        <li><a href="https://linkedin.com/in/aiden-bohluli">LinkedIn</a></li>
+        <li><a href="https://github.com/abohluli">GitHub</a></li>
+        <li><a href="reports/resume.pdf">Resume</a></li>
+      </ul>
+      <p class="footer__copyright">© 2026 Aiden Bohluli</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.cloudimage.io/360-view/4.10.0/360-view.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
